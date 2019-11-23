@@ -91,7 +91,7 @@ def make_octave(x, y, z):
         black_key(player_x + i, player_y, player_z) 
 
 edit in python 3 idle
-def make_octave(x, y, z):
+def make_octave():
     for i in range(0, 19, 3):
         white_key(player_x + i, player_y, player_z)
     for i in range(2, 18, 3):
